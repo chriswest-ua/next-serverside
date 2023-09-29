@@ -5,14 +5,3 @@ export const Welcome = () => {
         </div>
     )
 }
-
-export const data = "HI"
-
-export const CountryCodes: Record<string, string> = {
-    'AF': 'Afghanistan',
-    'AL': 'Albania',
-    'DZ': 'Algeria',
-    'AI': 'Anguilla',
-    'CA': 'Canada',
-    'US': 'United States',
-}

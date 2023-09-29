@@ -2,7 +2,7 @@
     padding: 24px 0;
     .content-layout {
         display: grid;
-        grid-template-columns: 200px 1fr;
+        grid-template-columns: 150px 1fr;
         gap: 24px;
 
         ul {
@@ -17,6 +17,24 @@
                         color: rgb(250,250,250);
                     }
                 }
+            }
+        }
+
+        .country-detail {
+            h3 {
+                font-weight: normal;
+                margin: 0 0 12px 0;
+                font-size: 1.8rem;
+            }
+            img {
+                height: 150px;
+            }
+
+            .metadata-table {
+                font-size: 1.0rem;
+                display: flex;
+                gap: 12px;
+                margin: 12px 0;
             }
         }
     }
